@@ -66,49 +66,56 @@ print(FuncControl('d','def'))
 
 # --------------Task 6--------------------
 
-def func():
-    pass
-
-
-print(func())
+# def func():
+#     pass
+#
+#
+# print(func())
 
 
 # --------------Task 7--------------------
 
 
-def func():
-    pass
-
-
-print(func())
+# def func():
+#     pass
+#
+#
+# print(func())
 
 
 # --------------Task 8--------------------
 
 
-def func():
-    pass
-
-
-print(func())
+# def func():
+#     pass
+#
+#
+# print(func())
 
 
 # --------------Task 9--------------------
 
 
-def func():
-    pass
-
-
-print(func())
+# def func():
+#     pass
+#
+#
+# print(func())
 
 
 # --------------Task 10--------------------
 
+lst = [2, 4, 5, 8, 9, 13]
 
-def func():
-    pass
+def func(list_1):
+    i = 0
+    new_list = []
+    while i < len(list_1):
+        num = list_1[i] * i
+        new_list.append(num)
+        i += 1
+    return new_list
 
 
-print(func())
+print(func(lst))
 
